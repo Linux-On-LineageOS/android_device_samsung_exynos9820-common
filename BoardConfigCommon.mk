@@ -186,3 +186,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 $(call soong_config_set,wpa_supplicant_8,board_wlan_bcmdhd_sae,true)
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
